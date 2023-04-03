@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.0](https://github.com/Joystream/hydra/compare/v4.0.0-alpha.11...v4.0.0) (2023-04-03)
+
+
+### ⚠ BREAKING CHANGES
+
+* **hydra-typegen:** The hydra typegen input should be a directory path which should contain the spec
+
+### Features
+
+* **hydra-typegen:** hydra typegen now adds a spec version suffix on the generated events ([3070fb6](https://github.com/Joystream/hydra/commit/3070fb6326e8e98b0faf89f44feb47c337a97689)), closes [#35](https://github.com/Joystream/hydra/issues/35)
+* feat: generate types for different runtime versions ([89b9976](https://github.com/Joystream/hydra/commit/89b9976935faf47de5f0cae9e0e3a84f15f4637b))
+
+
+### Bug Fixes
+
+* import event's parameters types of the same spec version ([b9319e6](https://github.com/Joystream/hydra/commit/b9319e6f9ce9331573265697bd18ad6d5f65cea6))
+* update CI checks runner to latest ubuntu due to failing jobs ([4b38575](https://github.com/Joystream/hydra/commit/4b38575343ccf05549273f9fd9d064091b00a412))
+
+
+
 ## 4.0.0-alpha.11 (2023-02-08)
 
 **Note:** Version bump only for package hydra
